@@ -1,0 +1,111 @@
+html {
+  background: #fafafa;
+  font-size: 14px;
+  min-width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 20px 40px;
+  background: #f2f2f2;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 65%;
+  overflow-x: auto;
+  padding: 20px 40px;
+  background: #f2f2f2;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 40px;
+  background: #f2f2f2;
+}
+
+.main-block {
+  height: 100%;
+}
+
+.app {
+  max-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation__button {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.goalList {
+  position: fixed;
+  background: #f2f2f2;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  &Title {
+    padding-right: 16px;
+  }
+}
+
+.calendar-block {
+  display: block;
+}
+
+.calendar-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 160px;
+    align-items: center;
+    padding-right: 10px;
+    background: #dfdfdf;
+    padding: 15px;
+    &:nth-child(even) {
+      background: #dbdbdb;
+    }
+  }
+}
+
+.button-block {
+  float: right;
+}
+
+.button-block>div {
+  margin-left: 12px;
+}
+
+.form-w-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

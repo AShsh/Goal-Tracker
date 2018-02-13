@@ -1,0 +1,29 @@
+{
+  "en": {
+    "translation": {
+      "navigation_calendar": "Calendar",
+      "navigation_statistic": "Statistic",
+      "footer_info": "lorem ipsum dolor sit amet",
+      "userSetting_submit": "Submit",
+      "userSetting_title": "User settings",
+      "userSetting_cancel": "Cancel",
+      "userSetting_name": "Your name",
+      "userSetting_name-label": "Change user name",
+      "calendar_addNewGoal": "Add new goal",
+      "gloals_list": " Goals list",
+      "goal": " Goal",
+      "min_date": " Min date",
+      "max_date": " Max date",
+      "select_weekdays": " Select weekdays",
+      "daysWeek": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  }
+}
